@@ -14,7 +14,7 @@
 using namespace std;
 
 int main() {
-	//string g = "zipcodes.txt"; The full file – after you have everything
+	//string g = "zipcodes.txt"; The full file â€“ after you have everything
 	// working
 	string h = "C:/Users/physi/workspace/CISC220CODE/Lab5/src/ziptestfile.txt"; // for testing purposes
 	cout <<"BINARY SEARCH TREE:" << endl<<"__________________________" <<endl;
