@@ -2,7 +2,7 @@
  * SortingClass.cpp
  *
  *  Created on: Apr 21, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #include "SortingClass.h"
@@ -85,7 +85,7 @@ SortingClass::SortingClass(){
 }
 
 int *SortingClass::copyArr(string s) {
-	//(7 pts) based on s (which can be ìrevî, ìordî, or ìrandî, creates a new array,
+	//(7 pts) based on s (which can be ‚Äúrev‚Äù, ‚Äúord‚Äù, or ‚Äúrand‚Äù, creates a new array,
 	// copies over the old array, and returns the address of the new array
 	string str1 = "rand";
 	string str2 = "ord";
@@ -108,7 +108,7 @@ int *SortingClass::copyArr(string s) {
 }
 
 void SortingClass::selectionSort(int arr[]) {
-	// (4 pts) Does what youíd think to the array passed into the method.
+	// (4 pts) Does what you‚Äôd think to the array passed into the method.
 	int minimum;
 	int tmp;
 	for (int i = 0; i < size - 1; i++) {
