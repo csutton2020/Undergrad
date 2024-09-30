@@ -1,4 +1,4 @@
-/*Olivia Liepa
+/*
  * Chris Sutton
  * cisc220-32L
  * lab4
@@ -16,7 +16,7 @@ using namespace std;
 int main() {
 
 	srand(time(NULL));
-	WebTopic *x = new WebTopic("C:/Users/physi/workspace/CISC220CODE/lab4/src/DogsandPuppies.html"); //or another web page – I haven’t
+	WebTopic *x = new WebTopic("C:/Users/physi/workspace/CISC220CODE/lab4/src/DogsandPuppies.html"); //or another web page â€“ I havenâ€™t
 	//tested it extensively, but it should work for any basic html page
 	x->ReadFile();
 	x->printPage();
