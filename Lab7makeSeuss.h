@@ -2,7 +2,7 @@
  * makeSeuss.h
  *
  *  Created on: May 22, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #ifndef MAKESEUSS_H_
@@ -14,7 +14,7 @@ using namespace std;
 
 class makeSeuss {
 	hashMap *ht;
-	string fn; //// file name for input (“DrSeuss.txt”)
+	string fn; //// file name for input (â€œDrSeuss.txtâ€)
 	string newfile; // name of output file
 
 public:
