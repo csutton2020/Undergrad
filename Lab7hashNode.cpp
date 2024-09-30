@@ -2,14 +2,14 @@
  * hashNode.cpp
  *
  *  Created on: May 5, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 
 #include "hashNode.h"
 using namespace std;
 
-hashNode::hashNode(){ //constructor-initializes keyword to ìî , values to 0, and array
+hashNode::hashNode(){ //constructor-initializes keyword to ‚Äú‚Äù , values to 0, and array
 	//to NULL
 	keyword = "";
 	values = NULL; //dynamically allocated array of words
@@ -46,7 +46,7 @@ hashNode::hashNode(string s, string v){ // in addition, puts a value in the valu
 }
 
 void hashNode::addValue(string v){ // adds a new value to the end of the values array,
-	//increases currSize, checks to make sure thereís more space, and, if not, calls
+	//increases currSize, checks to make sure there‚Äôs more space, and, if not, calls
 	//dblArray()
 	if(currSize == valuesSize){
 		dblArray();
@@ -78,7 +78,7 @@ void hashNode::dblArray(){ //creates a new array, double the length, and copies 
 
 }
 string hashNode::getRandValue(){ // returns a random string from the values array. If
-	//thereís no values in the value array, then it returns an empty string.
+	//there‚Äôs no values in the value array, then it returns an empty string.
 	int randValue = rand() % ( currSize - 0 + 1 ); //pick rand value
 	if(currSize == 0){
 		return "";
