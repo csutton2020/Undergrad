@@ -1,5 +1,5 @@
 /*
- *Olivia Liepa
+
  * Chris Sutton
  * cisc220-32L
  * lab4
