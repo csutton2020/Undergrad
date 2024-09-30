@@ -2,7 +2,7 @@
  * SortingClass.h
  *
  *  Created on: Apr 21, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #ifndef SORTINGCLASS_H_
