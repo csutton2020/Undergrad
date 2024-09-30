@@ -2,8 +2,7 @@
  * hashMap.cpp
  *
  *  Created on: May 5, 2017
- *      Author: physi
- */
+ *      Author: Christian Sutton
 
 #include "hashMap.h"
 
