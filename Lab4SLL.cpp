@@ -1,5 +1,5 @@
 /*
- * Olivia Liepa
+
  * Chris Sutton
  * cisc220-32L
  * lab4
@@ -82,7 +82,7 @@ void SLL::priorityInsert(string s, int p){
 	//(8 pts)
 	//This method creates a new node with s as the word and p as the priority and,
 	//if the priority is 1, adds the new node to the beginning of the list, if it
-	//is 3, adds the node to the end of the list, and if it’s 2, it will insert it
+	//is 3, adds the node to the end of the list, and if itâ€™s 2, it will insert it
 	//into the list right after pointer p2 (which is the last node with a priority
 	//of 2. In essence, all the nodes with a priority of 1 are at the beginning
 	//of the list, all the nodes with a priority of 2 are in the middle of the
