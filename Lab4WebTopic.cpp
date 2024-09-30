@@ -1,5 +1,5 @@
 /*
- * Olivia Liepa
+ * 
  * Chris Sutton
  * cisc220-32L
  * lab4
@@ -74,7 +74,7 @@ void WebTopic::ReadFile() {
 }
 
 string WebTopic::stripSpace(string s) {
-	//Strips out any character that isn’t alphanumeric and returns the stripped
+	//Strips out any character that isnâ€™t alphanumeric and returns the stripped
 	//string
 	unsigned int i = 0;
 	while (i < s.length()) { // over length
