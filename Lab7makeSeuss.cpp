@@ -2,7 +2,7 @@
  * makeSeuss.cpp
  *
  *  Created on: May 22, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #include "makeSeuss.h"
