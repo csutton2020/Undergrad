@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : lab7.cpp
-// Author      : 
+// Author      : Christian Sutton
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
