@@ -1,5 +1,5 @@
 /*
- * Olivia Liepa
+ * 
  * Chris Sutton
  * cisc220-32L
  * lab4
@@ -36,24 +36,24 @@ public:
 	//takes a line of characters and breaks the line up into words by creating a
 	//new string of only alphabetical characters: Note: I did this by first
 	//breaking the string into individual words separated by spaces, and then used
-	//the function stripSpace to remove anything that wasn’t an alphanumeric
+	//the function stripSpace to remove anything that wasnâ€™t an alphanumeric
 	//character using the built in isalpha function.
 	string stripSpace(string s);
-	//Strips out any character that isn’t alphanumeric and returns the stripped
+	//Strips out any character that isnâ€™t alphanumeric and returns the stripped
 	//string
 	void getPriority(string line);
 	//(5 pts)
 	//The line is the tag, without the first <. This method uses the line to
 	//determine the current priority as follows:
-	//If the first 5 characters in the line match the word “title” (I used
+	//If the first 5 characters in the line match the word â€œtitleâ€ (I used
 	//line.compare for this), or the first 2 characters match either h2 or h2,
 	//then the current priority is set to 1. If the first 2 characters are
-	//anything between h3 and h6, then the priority is set to 2, and if it’s
-	//anything else, it’s set to 3.
+	//anything between h3 and h6, then the priority is set to 2, and if itâ€™s
+	//anything else, itâ€™s set to 3.
 	void printPage();
 	// (4 pts)
 	//prints out the list of words on the web page, ordered by their priority (and
-	//listing each word’s priority
+	//listing each wordâ€™s priority
 
 
 
