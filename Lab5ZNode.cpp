@@ -1,4 +1,4 @@
-/*Olivia liepa
+/*
  * chris sutton
  * cisc220 032L
  */
