@@ -2,7 +2,7 @@
  * hashMap.h
  *
  *  Created on: May 5, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #ifndef HASHMAP_H_
