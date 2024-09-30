@@ -2,7 +2,7 @@
  * hashNode.h
  *
  *  Created on: May 5, 2017
- *      Author: physi
+ *      Author: Christian Sutton
  */
 
 #ifndef HASHNODE_H_
@@ -15,7 +15,7 @@ using namespace std;
 
 class hashNode {
 	friend class hashMap;
-	string keyword; // this is used as the key ñ each key is only inserted once!
+	string keyword; // this is used as the key ‚Äì each key is only inserted once!
 	string *values; // the dynamically allocated array of words that follow the
 	//key in the Dr. Seuss text. If this set of words gets to be larger than the
 	//valuesSize of the array, then you must re-allocate the array double in size and copy
@@ -25,19 +25,19 @@ class hashNode {
 
 public:
 
-	hashNode(); //constructor-initializes keyword to ìî , values to 0, and array
+	hashNode(); //constructor-initializes keyword to ‚Äú‚Äù , values to 0, and array
 	//to NULL
 	hashNode(string s); // initializes keyword to s, the arraysize to 100 (or
 	//whatever you like for starting), the currSize to 0, and the valuesSize to 100
 	hashNode(string s, string v); // in addition, puts a value in the values
 	//array and initializes currSize to 1
 	void addValue(string v); // adds a new value to the end of the values array,
-	//increases currSize, checks to make sure thereís more space, and, if not, calls
+	//increases currSize, checks to make sure there‚Äôs more space, and, if not, calls
 	//dblArray()
 	void dblArray(); //creates a new array, double the length, and copies over the
 	//values. Sets the values array to be the newly allocated array.
 	string getRandValue(); // returns a random string from the values array. If
-	//thereís no values in the value array, then it returns an empty string.
+	//there‚Äôs no values in the value array, then it returns an empty string.
 
 	virtual ~hashNode();
 };
